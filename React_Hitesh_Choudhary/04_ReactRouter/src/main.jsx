@@ -3,11 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider as ReactProvider } from 'react-router-dom'
-import Home from './components/Home/Home.jsx'
-import About from './components/About/About.jsx'
-import Contact from './components/Contact/Contact.jsx'
-import User from './components/User/User.jsx'
-import Github, { githubInfoLoader } from './components/Github/Github.jsx'
+import { Home, About, Contact, User, Github, githubInfoLoader} from "./components"
 
 // const router = createBrowserRouter([
 //   {
